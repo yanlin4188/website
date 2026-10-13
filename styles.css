@@ -1,0 +1,184 @@
+body {
+    margin: 0;
+    background: black;
+}
+
+.page {
+    width: 900px;
+    height: 1200px;
+    background: white;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    font-family: "Roboto", sans-serif;
+}
+
+.button {
+    display: inline-block;
+    background: #3882f6;
+    color: white;
+    padding: 8px 20px;
+    border-radius: 8px;
+    text-decoration: none;
+    margin-top: 10px;
+}
+
+.button1 {
+    border: solid white;
+}
+
+.page > div {
+    width: auto;
+    height: 300px;
+    box-sizing: border-box;
+    flex-shrink: 0;
+}
+
+.page .part1 {
+    background-color: #1F2937;
+    padding-top: 10px;
+    color: #F9FAF8;
+}
+
+.page .part1 .subcontainer1 {
+    display: flex;
+    margin-left: 100px;
+    margin-right: 100px;
+    justify-content: space-between;
+}
+
+.page .part1 .subcontainer1 .logo {
+    font-weight: bold;
+}
+
+.page .part1 .subcontainer1 .links {
+    font-size: 13px;
+    display: flex;
+    justify-content: space-between;
+    margin-left: auto;
+    gap: 18px;
+    color: white;
+    text-decoration: none;
+}
+
+.links a {
+    color: inherit;
+    text-decoration: none;
+}
+
+.page .part1 .subcontainer2 {
+    display: flex;
+    margin-top: 30px;
+    margin-left: 100px;
+    margin-right: 100px;
+    gap: 40px;
+}
+
+.page .part1 .subcontainer2 .main-content {
+    font-size: 40px;
+    font-weight: bold;
+}
+
+.page .part1 .subcontainer2 .secondary-content {
+    font-size: 18px;
+    color: #E5E7EB;
+}
+
+
+
+button:hover {
+  background-color: #2563eb;
+}
+
+button:active {
+  transform: scale(0.95);
+  background-color: #1d4ed8;
+}
+
+.page .part1 .subcontainer2 .right img {
+    height: 150px;
+    width: 300px;
+}
+
+.page .part2 .part2-title {
+    font-size: 24px;
+    text-align: center;
+    font-weight: bold;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.page .part2 .information {
+    display: flex;
+    flex: auto;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.page .part2 .information .images {
+    display: flex;
+    width: 500px;
+    height: 100px;
+    margin-left: 200px;
+    margin-right: 200px;
+    justify-content: space-between;
+}
+
+.page .part2 .information .images img {
+    border-radius: 5px;
+}
+
+.page .part2 .information .descriptions {
+    display: flex; 
+    justify-content: space-between;
+    margin-left: 220px;
+    margin-right: 220px;
+}
+.cursor {
+    display: inline-block;
+    width: 3px;
+    height: 0.8em;
+    background-color: black;
+    margin-left: 3px;
+    transform: skew(-12deg);
+    animation: blink 1s step-end infinite;
+}
+
+@keyframes blink {
+    50% {
+        opacity: 0;
+    }
+}
+
+.page .part3{
+    background-color: #E5E7EB;
+    font-size: 36px;
+    color: #1F2937;
+    font-style: italic;
+    font-size: 36px;
+    color: #1F2937;
+    font-weight: 300;
+    font-style: italic;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.container {
+    background-color: #3882f6;
+    max-width: 660px;
+    margin: 65px auto;
+    padding: 10px 30px;
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    border-radius: 6px;
+    gap: 30px;
+}
+
+.text {
+    color: white;
+}
